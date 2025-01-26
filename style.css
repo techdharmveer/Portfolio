@@ -34,10 +34,7 @@ html{
 ::-webkit-scrollbar-thumb:hover{
     background: #a1a1a1;
 }
-a{
-    text-decoration: none;
-    
-}
+
 /* -- Global button -- */
 .btn{
     font-weight: 500;
