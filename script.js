@@ -16,7 +16,10 @@ function myMenuFunction(){
     menuBtn.className = "nav-menu";
   }
 }
-
+// CV Downlode
+ document.getElementById('download-btn').addEventListener('click', function() {
+        window.open('Dharm Resume.pdf', '_blank');
+    });
 /* -- Add shadow to the navigation bar when scrolling -- */
 window.onscroll = function() {headerShadow()};
 function headerShadow() {
